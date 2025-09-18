@@ -8,6 +8,9 @@ export default function Navbar() {
       </Link>
 
       <div className="flex space-x-6">
+        <Link href="/" className="hover:text-gray-300">
+          Home
+        </Link>
         <Link href="/about" className="hover:text-gray-300">
           About
         </Link>
@@ -16,6 +19,9 @@ export default function Navbar() {
         </Link>
         <Link href="/login" className="hover:text-gray-300">
           Login
+        </Link>
+        <Link href="/dashboard" className="hover:text-gray-300">
+          Dashboard
         </Link>
       </div>
     </nav>
