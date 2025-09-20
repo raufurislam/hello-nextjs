@@ -6,8 +6,8 @@ export default function GalleryPage() {
     <div className="text-center">
       <h1>Regular Image Tag</h1>
       <img
-        src="https://images.unsplash.com/photo-1758221941243-f0c18fabcf1f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt=""
+        src="https://images.pexels.com/photos/31656834/pexels-photo-31656834.jpeg"
+        alt="Regular Image Tag"
         width={500}
         height={500}
         className="mx-auto"
@@ -15,8 +15,8 @@ export default function GalleryPage() {
 
       <h1>NextJs Image Components</h1>
       <Image
-        src="https://images.unsplash.com/photo-1758221941243-f0c18fabcf1f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt=""
+        src="https://images.pexels.com/photos/31656834/pexels-photo-31656834.jpeg"
+        alt="NextJs Image Components"
         width={500}
         height={500}
         className="mx-auto"
@@ -25,7 +25,7 @@ export default function GalleryPage() {
       <h1>NextJs Image Components Local</h1>
       <Image
         src={nextImg}
-        alt=""
+        alt="NextJs Image Components Local"
         width={500}
         height={500}
         className="mx-auto"
@@ -34,7 +34,7 @@ export default function GalleryPage() {
       <h1>NextJs Image Components Public</h1>
       <Image
         src="/image-optization-learning.avif"
-        alt=""
+        alt="NextJs Image Components Public"
         width={500}
         height={500}
         className="mx-auto"

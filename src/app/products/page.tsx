@@ -4,10 +4,13 @@ import { IProduct } from "@/type";
 export default async function ProductsPage() {
   const res = await fetch("http://localhost:5000/products", {
     // cache: "force-cache",
-    next: {
-      revalidate: 5, // ISR
-      // tags: ["products"], // better way
-    },
+
+    cache: "no-store", //(Dynamic)  server-rendered on demand
+
+    // next: { // (Static)   prerendered as static content
+    //   revalidate: 5, // ISR
+    //   // tags: ["products"], // better way
+    // },
   });
   const products = await res.json();
 
@@ -17,7 +20,7 @@ export default async function ProductsPage() {
         Explore Our Products
       </h1>
 
-      <section className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <section className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {products.map((product: IProduct) => (
           <ProductCard key={product.id} product={product} />
         ))}
