@@ -6,7 +6,7 @@
       "category": "Laptop",
       "brand": "TechPro",
       "price": 1200,
-      "image": "https://images.pexels.com/photos/5450624/pexels-photo-5450624.jpeg"
+      "image": "https://www.vertech.com.bd/_next/image?url=https%3A%2F%2Fadminapi.vertech.com.bd%2Fstorage%2Fmedia%2Flarge%2FLenovo-IdeaPad-Slim-3-15IRH8-a-7824.jpg&w=3840&q=75"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "Laptop",
       "brand": "PowerCore",
       "price": 1500,
-      "image": "https://images.pexels.com/photos/5164479/pexels-photo-5164479.jpeg"
+      "image": "https://intelcorp.scene7.com/is/image/intelcorp/evo-laptop-product-image-transparent-background:1920-1080?wid=576&hei=324&fmt=webp-alpha"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Laptop",
       "brand": "Greentech",
       "price": 1000,
-      "image": "https://images.pexels.com/photos/3740749/pexels-photo-3740749.jpeg"
+      "image": "https://www.quantatw.com/quanta/english/images/product_2022_05.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "category": "Camera",
       "brand": "PixelX",
       "price": 350,
-      "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"
+      "image": "https://media.istockphoto.com/id/174455805/photo/dslr-camera-with-mounted-50mm-f1-4-lens-on-white-background.jpg?s=612x612&w=0&k=20&c=m2ucRgcCP-P3d8dWj9oEkW8FhuAvgD88n0x7C00g0rI="
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "category": "Headphones",
       "brand": "SoundCore",
       "price": 200,
-      "image": "https://images.pexels.com/photos/2832438/pexels-photo-2832438.jpeg"
+      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/Headphones_Product-finder_WH-1000XM6?$productFinder$&fmt=png-alpha"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "category": "Smart Watch",
       "brand": "TechWatch",
       "price": 250,
-      "image": "https://images.pexels.com/photos/2755786/pexels-photo-2755786.jpeg"
+      "image": "https://thumbs.dreamstime.com/b/modern-white-smart-watch-isolated-background-digital-wristwatch-made-metallic-material-backdrop-studio-product-333383464.jpg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "category": "Accessories",
       "brand": "GameTech",
       "price": 100,
-      "image": "https://images.pexels.com/photos/4101132/pexels-photo-4101132.jpeg"
+      "image": "https://techlandbd.com/cache/images/uploads/products/P1272506342/cover_thum_cache_optimize-50.webp"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "category": "Accessories",
       "brand": "PowerX",
       "price": 40,
-      "image": "https://images.pexels.com/photos/2641333/pexels-photo-2641333.jpeg"
+      "image": "https://gioox.com/public/uploads/product/1723104155-img-20240807-wa0002.jpg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "category": "TV",
       "brand": "VisionMax",
       "price": 1200,
-      "image": "https://images.pexels.com/photos/2977587/pexels-photo-2977587.jpeg"
+      "image": "https://clickonrentals.com.au/wp-content/uploads/2019/08/40-Smart-TV-2.jpg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "category": "Speakers",
       "brand": "SoundWave",
       "price": 150,
-      "image": "https://images.pexels.com/photos/2953582/pexels-photo-2953582.jpeg"
+      "image": "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F28903%2FXiaomi-Bluetooth-Speaker-1.png&w=640&q=75"
     }
   ]
 }

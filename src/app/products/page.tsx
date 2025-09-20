@@ -2,7 +2,9 @@ import ProductCard from "@/components/Products/ProductCard";
 import { IProduct } from "@/type";
 
 export default async function ProductsPage() {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:5000/products", {
+    cache: "force-cache",
+  });
   const products = await res.json();
 
   return (
