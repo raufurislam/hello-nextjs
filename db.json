@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "TechPro 15",
+      "category": "Laptop",
+      "brand": "TechPro",
+      "price": 12000,
+      "image": "https://www.vertech.com.bd/_next/image?url=https%3A%2F%2Fadminapi.vertech.com.bd%2Fstorage%2Fmedia%2Flarge%2FLenovo-IdeaPad-Slim-3-15IRH8-a-7824.jpg&w=3840&q=75"
+    },
+    {
+      "id": 2,
+      "product_name": "Gaming Beast G17",
+      "category": "Laptop",
+      "brand": "PowerCore",
+      "price": 1500,
+      "image": "https://intelcorp.scene7.com/is/image/intelcorp/evo-laptop-product-image-transparent-background:1920-1080?wid=576&hei=324&fmt=webp-alpha"
+    },
+    {
+      "id": 3,
+      "product_name": "EcoBook 14i",
+      "category": "Laptop",
+      "brand": "Greentech",
+      "price": 1000,
+      "image": "https://www.quantatw.com/quanta/english/images/product_2022_05.jpg"
+    },
+    {
+      "id": 4,
+      "product_name": "UltraPixel Camera 5000",
+      "category": "Camera",
+      "brand": "PixelX",
+      "price": 350,
+      "image": "https://media.istockphoto.com/id/174455805/photo/dslr-camera-with-mounted-50mm-f1-4-lens-on-white-background.jpg?s=612x612&w=0&k=20&c=m2ucRgcCP-P3d8dWj9oEkW8FhuAvgD88n0x7C00g0rI="
+    },
+    {
+      "id": 5,
+      "product_name": "SoundMax Pro",
+      "category": "Headphones",
+      "brand": "SoundCore",
+      "price": 200,
+      "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/Headphones_Product-finder_WH-1000XM6?$productFinder$&fmt=png-alpha"
+    },
+    {
+      "id": 6,
+      "product_name": "SmartWatch X9",
+      "category": "Smart Watch",
+      "brand": "TechWatch",
+      "price": 250,
+      "image": "https://thumbs.dreamstime.com/b/modern-white-smart-watch-isolated-background-digital-wristwatch-made-metallic-material-backdrop-studio-product-333383464.jpg"
+    },
+    {
+      "id": 7,
+      "product_name": "GamePad X1",
+      "category": "Accessories",
+      "brand": "GameTech",
+      "price": 100,
+      "image": "https://techlandbd.com/cache/images/uploads/products/P1272506342/cover_thum_cache_optimize-50.webp"
+    },
+    {
+      "id": 8,
+      "product_name": "PowerBank Pro 10000",
+      "category": "Accessories",
+      "brand": "PowerX",
+      "price": 40,
+      "image": "https://gioox.com/public/uploads/product/1723104155-img-20240807-wa0002.jpg"
+    },
+    {
+      "id": 9,
+      "product_name": "4K Ultra TV 55",
+      "category": "TV",
+      "brand": "VisionMax",
+      "price": 1200,
+      "image": "https://clickonrentals.com.au/wp-content/uploads/2019/08/40-Smart-TV-2.jpg"
+    },
+    {
+      "id": 10,
+      "product_name": "Smart Speaker XS",
+      "category": "Speakers",
+      "brand": "SoundWave",
+      "price": 150,
+      "image": "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F28903%2FXiaomi-Bluetooth-Speaker-1.png&w=640&q=75"
+    }
+  ]
+}
