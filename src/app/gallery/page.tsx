@@ -1,5 +1,5 @@
 import Image from "next/image";
-import nextImg from "../../assets/image-optization-learning.avif";
+import nextImg from "@/assets/image-optization-learning.avif";
 
 export default function GalleryPage() {
   return (
