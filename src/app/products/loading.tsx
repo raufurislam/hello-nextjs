@@ -1,5 +1,3 @@
-// loading.tsx (or just in your component if you prefer)
-
 export default function ProductsLoadingPage() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
@@ -28,9 +26,9 @@ export default function ProductsLoadingPage() {
           </svg>
         </div>
         <h2 className="text-2xl font-semibold text-gray-700">
-          We're fetching your products...
+          We&apos;re fetching your products...
         </h2>
-        <p className="text-gray-500">Hang tight, this won't take long.</p>
+        <p className="text-gray-500">Hang tight, this won&apos;t take long.</p>
       </div>
     </div>
   );
