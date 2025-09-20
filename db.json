@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "TechPro 15",
+      "category": "Laptop",
+      "brand": "TechPro",
+      "price": 1200,
+      "image": "https://images.pexels.com/photos/5450624/pexels-photo-5450624.jpeg"
+    },
+    {
+      "id": 2,
+      "product_name": "Gaming Beast G17",
+      "category": "Laptop",
+      "brand": "PowerCore",
+      "price": 1500,
+      "image": "https://images.pexels.com/photos/5164479/pexels-photo-5164479.jpeg"
+    },
+    {
+      "id": 3,
+      "product_name": "EcoBook 14i",
+      "category": "Laptop",
+      "brand": "Greentech",
+      "price": 1000,
+      "image": "https://images.pexels.com/photos/3740749/pexels-photo-3740749.jpeg"
+    },
+    {
+      "id": 4,
+      "product_name": "UltraPixel Camera 5000",
+      "category": "Camera",
+      "brand": "PixelX",
+      "price": 350,
+      "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"
+    },
+    {
+      "id": 5,
+      "product_name": "SoundMax Pro",
+      "category": "Headphones",
+      "brand": "SoundCore",
+      "price": 200,
+      "image": "https://images.pexels.com/photos/2832438/pexels-photo-2832438.jpeg"
+    },
+    {
+      "id": 6,
+      "product_name": "SmartWatch X9",
+      "category": "Smart Watch",
+      "brand": "TechWatch",
+      "price": 250,
+      "image": "https://images.pexels.com/photos/2755786/pexels-photo-2755786.jpeg"
+    },
+    {
+      "id": 7,
+      "product_name": "GamePad X1",
+      "category": "Accessories",
+      "brand": "GameTech",
+      "price": 100,
+      "image": "https://images.pexels.com/photos/4101132/pexels-photo-4101132.jpeg"
+    },
+    {
+      "id": 8,
+      "product_name": "PowerBank Pro 10000",
+      "category": "Accessories",
+      "brand": "PowerX",
+      "price": 40,
+      "image": "https://images.pexels.com/photos/2641333/pexels-photo-2641333.jpeg"
+    },
+    {
+      "id": 9,
+      "product_name": "4K Ultra TV 55",
+      "category": "TV",
+      "brand": "VisionMax",
+      "price": 1200,
+      "image": "https://images.pexels.com/photos/2977587/pexels-photo-2977587.jpeg"
+    },
+    {
+      "id": 10,
+      "product_name": "Smart Speaker XS",
+      "category": "Speakers",
+      "brand": "SoundWave",
+      "price": 150,
+      "image": "https://images.pexels.com/photos/2953582/pexels-photo-2953582.jpeg"
+    }
+  ]
+}
