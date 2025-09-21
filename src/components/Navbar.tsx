@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
+  console.log(pathname);
+
   return (
     <nav className="w-full bg-gray-900 text-white px-6 py-3 flex items-center justify-between">
       {/* Logo / Brand */}
@@ -21,16 +27,54 @@ export default function Navbar() {
 
       {/* Navigation Links */}
       <div className="flex space-x-6">
-        <Link href="/" className="hover:text-gray-300">
+        <Link
+          href="/"
+          className={`${
+            pathname === "/"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
           Home
         </Link>
-        <Link href="/products" className="hover:text-gray-300">
+        <Link
+          href="/products"
+          className={`${
+            pathname === "/products"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
           Products
         </Link>
-        <Link href="/gallery" className="hover:text-gray-300">
+        <Link
+          href="/posts"
+          className={`${
+            pathname === "/posts"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
+          Posts
+        </Link>
+        <Link
+          href="/gallery"
+          className={`${
+            pathname === "/gallery"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
           Gallery
         </Link>
-        <Link href="/about" className="hover:text-gray-300">
+        <Link
+          href="/about"
+          className={`${
+            pathname === "/about"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
           About
         </Link>
         {/* <Link href="/contact" className="hover:text-gray-300">
