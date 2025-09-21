@@ -48,6 +48,16 @@ export default function Navbar() {
           Products
         </Link>
         <Link
+          href="/posts"
+          className={`${
+            pathname === "/posts"
+              ? "text-rose-700 font-semibold underline"
+              : "text-white hover:text-gray-300"
+          }`}
+        >
+          Posts
+        </Link>
+        <Link
           href="/gallery"
           className={`${
             pathname === "/gallery"
