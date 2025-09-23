@@ -32,9 +32,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={geistSans.className}>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-gray-950">
           <Navbar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow py-28">{children}</main>
           <Footer />
         </div>
       </body>

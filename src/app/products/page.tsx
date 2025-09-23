@@ -1,30 +1,7 @@
-import ProductCard from "@/components/Products/ProductCard";
-import { IProduct } from "@/type";
-
-export default async function ProductsPage() {
-  const res = await fetch("http://localhost:5000/products", {
-    // cache: "force-cache",
-
-    cache: "no-store", //(Dynamic)  server-rendered on demand
-
-    // next: { // (Static)   prerendered as static content
-    //   revalidate: 5, // ISR
-    //   // tags: ["products"], // better way
-    // },
-  });
-  const products = await res.json();
-
+export default function page() {
   return (
-    <main className="min-h-screen bg-gray-50 py-12 px-6">
-      <h1 className="text-4xl font-extrabold text-center text-blue-900 mb-12">
-        Explore Our Products
-      </h1>
-
-      <section className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {products.map((product: IProduct) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </section>
-    </main>
+    <div>
+      <h1>This is page component</h1>
+    </div>
   );
 }
