@@ -31,9 +31,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={geistSans.className}>
         <div className="flex flex-col min-h-screen bg-gray-950">
-          <nav>This is Navbar</nav>
+          {/* <nav>This is Navbar</nav> */}
           <main className="flex-grow">{children}</main>
-          <footer>This is footer</footer>
+          {/* <footer>This is footer</footer> */}
         </div>
       </body>
     </html>
