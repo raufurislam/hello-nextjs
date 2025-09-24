@@ -12,6 +12,8 @@ export default function ParallelPage() {
       <button onClick={() => router.push("/products")}>
         View Product with hooks
       </button>
+      <br />
+      <Link href="/intercepting">Go to product page Intercepting</Link>
     </div>
   );
 }
