@@ -2,8 +2,8 @@ export const dynamic = "force-dynamic";
 
 export default async function SSRPage() {
   const res = await fetch("https://randomuser.me/api", {
-    cache: "force-cache", // by default nature. its ssg type. It stores data.
-    // cache: "no-store", // disables caching, always fresh
+    next: { revalidate: 10 },
+    // next: { tags: ["USER"] },
   });
   const data = await res.json();
 

@@ -1,5 +1,5 @@
 export default async function ServerPage() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts/1"); // ssg (cache: "force-cache"), it fetches once (at build)
   const data = await res.json();
   console.log(data);
 
