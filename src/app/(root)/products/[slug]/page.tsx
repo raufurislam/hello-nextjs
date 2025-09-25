@@ -1,6 +1,6 @@
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import Loading from "../loading";
-import { error } from "console";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -8,33 +8,37 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  console.log(slug);
   return {
-    title: `Product - ${slug}`,
-    description: `This is ${slug} pages`,
+    title: `product - ${slug}`,
+    description: "this is" + slug + "page",
   };
 }
 
-export default async function page({
+const page = async ({
   params,
   searchParams,
 }: {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}) {
+}) => {
   const slug = (await params).slug;
   const searchString = await searchParams;
-  console.log({ searchString });
-  throw new Error(`Error while getting product from ${slug} data`);
+  console.log("searchString", searchString);
+
+  // throw new Error(`Error while getting product ${slug} data`);
+  if (slug == Number(999).toString()) {
+    notFound();
+  }
 
   return (
     <div>
-      <h1>This is {slug} page component</h1>
-      <p>You are currently in currently in {searchString.page} page</p>
-
+      this is {slug} page
+      <p>You are currently in {searchString.page} page</p>
       <Suspense fallback={<Loading />}>
         <div>Comments Section</div>
       </Suspense>
     </div>
   );
-}
+};
+
+export default page;
