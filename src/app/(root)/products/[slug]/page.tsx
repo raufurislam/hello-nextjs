@@ -1,5 +1,19 @@
 import { Suspense } from "react";
 import Loading from "../loading";
+import { error } from "console";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  console.log(slug);
+  return {
+    title: `Product - ${slug}`,
+    description: `This is ${slug} pages`,
+  };
+}
 
 export default async function page({
   params,
@@ -11,6 +25,7 @@ export default async function page({
   const slug = (await params).slug;
   const searchString = await searchParams;
   console.log({ searchString });
+  throw new Error(`Error while getting product from ${slug} data`);
 
   return (
     <div>
